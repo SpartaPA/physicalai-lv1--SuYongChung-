@@ -1,0 +1,2 @@
+SUBSYSTEM=="block", ATTR{loop/backing_file}=="/home/pa24/fake_sensors/lidar.img", SYMLINK+="robot_lidar", MODE="0666", GROUP="dialout"
+SUBSYSTEM=="block", ATTR{loop/backing_file}=="/home/pa24/fake_sensors/imu.img", SYMLINK+="robot_imu", MODE="0666", GROUP="dialout"
